@@ -1,9 +1,3 @@
-"""
-This is based on Assignment 3 Open Domain Dialogue System
-https://docs.google.com/document/d/1GJfn2B6EI8JueDiBwzTAdD34d6pC99BSt6vldOmUCPQ/edit#heading=h.mg4k7iiiszlp
-"""
-#change the processed path to location of stored data
-
 import io
 import sys
 import re
@@ -494,10 +488,6 @@ def translate():
             print('Sentence in Vietnameese \n')
             print(translatedSentence)
             print('----------------------------------------------');
-
-
-############################################
-########Your main Function here#############
 
 
 if sys.argv[1] == "train":
