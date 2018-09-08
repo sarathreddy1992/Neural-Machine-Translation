@@ -17,5 +17,9 @@ is saved in a folder named “model”.
 2) The command “Python NMT.py test” will test the model. 
 This command will (i) load data from (tst2012.en or tst2013.en) to translate sentences; and 
 		(2) will calculate BLEU score (https://www.nltk.org/_modules/nltk/translate/bleu_score.html) with smoothing method1
+		
+![](BLEUscore.JPG)
 
 3)The command “Python NMT.py translate” will run the translate function. Given a sentence, your model will be able to translate it into the corresponding language
+
+![](SentenceTranlated.JPG)
