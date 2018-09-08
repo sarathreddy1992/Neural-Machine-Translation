@@ -4,12 +4,12 @@ English-Vietnamese datasets can be found at: https://nlp.stanford.edu/projects/n
 Preprocessed Data.
 The neural machine translation file NMT.py contains three functions including train, test, and translate.
 
-1)The command “Python NMT.py train” will train the network.  
+1)The command â€œPython NMT.py trainâ€ will train the network.  
 In each iteration of training function, training loss has been displayed. After training the model 
-is saved in a folder named “model”.  
+is saved in a folder named â€œmodelâ€.  
 
-2) The command “Python NMT.py test” will test the model. 
+2) The command â€œPython NMT.py testâ€ will test the model. 
 This command will (i) load data from (tst2012.en or tst2013.en) to translate sentences; and 
 		(2) will calculate BLEU score (https://www.nltk.org/_modules/nltk/translate/bleu_score.html) with smoothing method1
 
-3)The command “Python NMT.py translate” will run the translate function. Given a sentence, your model will be able to translate it into the corresponding language
+3)The command â€œPython NMT.py translateâ€ will run the translate function. Given a sentence, your model will be able to translate it into the corresponding language
